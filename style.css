@@ -23,6 +23,7 @@ main {
 	background-color: grey;
 	padding: 10px;
 	border-radius: 10px;
+	transition: 0.3s ease;
 }
 
 .container:hover {
@@ -30,5 +31,5 @@ main {
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 55px;
 }
