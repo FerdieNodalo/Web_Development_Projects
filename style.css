@@ -117,7 +117,7 @@ body {
 
 .card {
 	width: 300px;
-	height: 500px;
+	height: 40%;
 	overflow: hidden;
 	border: 8px solid #f6f4eb;
 	border-radius: 20px;
@@ -145,28 +145,24 @@ body {
 	bottom: 0;
 	border-radius: 10px;
 }
-.card:hover .card_img {
-	transform: scale(1.1);
-}
 
 .card_title {
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 700;
 }
 
 .card_sub-title {
 	text-transform: capitalize;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 300;
 }
 
 .card_info {
 	height: 210px;
 	list-style: none;
-	margin: 30px 0;
-	line-height: 25px;
-	font-size: 20px;
+	margin: 20px 0;
+	font-size: 13px;
 }
 
 .card_info li i {
@@ -180,10 +176,10 @@ body {
 	outline: none;
 	text-transform: capitalize;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	border-radius: 2rem;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 15 px;
 	cursor: pointer;
 	transition: 0.2s ease-in;
 }
@@ -195,28 +191,28 @@ body {
 
 /* CAPSTONE PROJECT SECTION */
 
-.personal_site {
-	background-image: url('./img/personal_site.png');
-	background-position: center;
-	background-size: cover;
-}
-
-.classroom_app {
-	background-image: url('./img/classroom_app.png');
-	background-size: cover;
-}
-
-.resume {
-	background-image: url('./img/my_resume.png');
-	background-size: cover;
-}
-
 .capstone_project-container {
 	height: 100vh;
 	margin-top: 80px;
 	padding: 10px 20px 0 20px;
 	display: flex;
 	flex-direction: row;
+}
+
+.personal_site {
+	background-image: url('./img/capstone_project/personal_site.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.classroom_app {
+	background-image: url('./img/capstone_project/classroom_app.png');
+	background-size: cover;
+}
+
+.resume {
+	background-image: url('./img/capstone_project/my_resume.png');
+	background-size: cover;
 }
 
 /* GAMES PROJECT SECTION */
@@ -235,6 +231,24 @@ body {
 	height: 100vh;
 	border: 2px solid black;
 	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+}
+
+.birthday_invite {
+	background-image: url('./img/html/birthday_invite.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.movie_ranking {
+	background-image: url('./img/html/movie_ranking.png');
+	background-size: cover;
+}
+
+.portfolio {
+	background-image: url('/img/html/portfolio.png');
+	background-size: cover;
 }
 
 /* CSS PROJECT SECTION */
@@ -244,6 +258,43 @@ body {
 	height: 100vh;
 	border: 2px solid black;
 	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.spanish_vocabulary {
+	background-image: url('/img/css/spanish_vocabulary.png');
+	background-size: cover;
+}
+
+.mondrian_painting {
+	background-image: url('/img/css/mondrian_painting.png');
+	background-size: cover;
+}
+
+.motivational_poster {
+	background-image: url('/img/css/motivational_poster.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.pricing_table {
+	background-image: url('/img/css/pricing_table.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.agency {
+	background-image: url('/img/css/agency.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.flag {
+	background-image: url('/img/css/flag.png');
+	background-position: center;
+	background-size: cover;
 }
 
 /* BOOTSTRAP PROJECT SECTION */
@@ -253,6 +304,14 @@ body {
 	height: 100vh;
 	border: 2px solid black;
 	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+}
+
+.tindog_startup {
+	background-image: url('/img/bootstrap/tindog_startup.png');
+	background-position: center;
+	background-size: cover;
 }
 
 /* DOM PROJECT SECTION */
@@ -262,6 +321,14 @@ body {
 	height: 100vh;
 	border: 2px solid black;
 	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+}
+
+.dice_game {
+	background-image: url('/img/javascript/dice_game.png');
+	background-position: center;
+	background-size: cover;
 }
 
 /* JQUERY PROJECT SECTION */
@@ -271,33 +338,14 @@ body {
 	height: 100vh;
 	border: 2px solid black;
 	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
 }
 
-/* NODEJS PROJECT SECTION */
-
-.nodejs_project-container {
-	width: 100%;
-	height: 100vh;
-	border: 2px solid black;
-	padding-top: 80px;
-}
-
-/* EXPRESSJS PROJECT SECTION */
-
-.expressjs_project-container {
-	width: 100%;
-	height: 100vh;
-	border: 2px solid black;
-	padding-top: 80px;
-}
-
-/* EJS PROJECT SECTION */
-
-.ejs_project-container {
-	width: 100%;
-	height: 100vh;
-	border: 2px solid black;
-	padding-top: 80px;
+.simon_game {
+	background-image: url('/img/javascript/simon_game.png');
+	background-position: center;
+	background-size: cover;
 }
 
 /* FOOTER SECTION */
