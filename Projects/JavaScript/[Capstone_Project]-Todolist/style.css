@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	display: grid;
+	justify-content: center;
+	border: 1px solid black;
+	height: 100vh;
+}
+
+.todo_list-container {
+	border: 1px solid black;
+	padding: 50px;
+}
+
+.heading {
+	border: 1px solid black;
+}
+
+#form {
+	border: 1px solid black;
+	margin: 0 0 30px 0;
+}
+
+#list_items {
+	border: 1px solid black;
+	height: auto;
+	width: auto;
+}
+
+.list_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.paragraph_list {
+	text-decoration: line-through;
+}
