@@ -222,6 +222,20 @@ body {
 	height: 100vh;
 	border: 2px solid black;
 	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+}
+
+.dice_game {
+	background-image: url('/img/javascript/dice_game.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.simon_game {
+	background-image: url('/img/javascript/simon_game.png');
+	background-position: center;
+	background-size: cover;
 }
 
 /* HTML PROJECT SECTION */
@@ -325,12 +339,6 @@ body {
 	flex-direction: row;
 }
 
-.dice_game {
-	background-image: url('/img/javascript/dice_game.png');
-	background-position: center;
-	background-size: cover;
-}
-
 /* JQUERY PROJECT SECTION */
 
 .jquery_project-container {
@@ -340,12 +348,6 @@ body {
 	padding-top: 80px;
 	display: flex;
 	flex-direction: row;
-}
-
-.simon_game {
-	background-image: url('/img/javascript/simon_game.png');
-	background-position: center;
-	background-size: cover;
 }
 
 /* FOOTER SECTION */
