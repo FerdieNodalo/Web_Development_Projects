@@ -79,8 +79,8 @@ html {
 }
 
 #list_items .list_container > input[type='checkbox'] {
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	margin-top: 5px;
 }
 
@@ -88,6 +88,8 @@ html {
 	display: flex;
 	align-items: center;
 	font-size: 20px;
+	padding: 5px;
+	max-width: 300px;
 }
 
 #list_items .list_container > button[id='delete'] {
@@ -101,6 +103,7 @@ html {
 	border: 1px solid #fff;
 	color: #fff;
 	transition: 0.2s ease-in-out;
+	max-height: 50px;
 }
 
 #list_items .list_container > button[id='delete']:hover {

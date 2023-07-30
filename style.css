@@ -199,6 +199,12 @@ body {
 	flex-direction: row;
 }
 
+.todolist {
+	background-image: url('./img/javascript/todolist.png');
+	background-position: center;
+	background-size: cover;
+}
+
 .personal_site {
 	background-image: url('./img/capstone_project/personal_site.png');
 	background-position: center;
