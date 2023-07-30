@@ -7,39 +7,116 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+html {
+	background-color: #e4e9fd;
+}
+
 .container {
 	display: grid;
 	justify-content: center;
-	border: 1px solid black;
 	height: 100vh;
 }
 
 .todo_list-container {
+	background-color: #fff9;
+	padding: 20px;
+	margin-top: 20px;
+	width: 500px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.input_box {
+	padding: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	width: 80%;
+}
+
+.submit_btn {
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #e3e1e1fd;
+	text-transform: capitalize;
+	width: 17%;
 	border: 1px solid black;
-	padding: 50px;
+	transition: 0.2s ease-in-out;
+}
+
+.submit_btn:hover {
+	background-color: #a683e3;
+	color: #fff;
+	transform: scale(1.1);
+	border: 1px solid #fff;
 }
 
 .heading {
-	border: 1px solid black;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 10px;
 }
 
 #form {
-	border: 1px solid black;
+	background-color: #a683e3;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 	margin: 0 0 30px 0;
+	padding: 15px;
 }
 
 #list_items {
-	border: 1px solid black;
 	height: auto;
 	width: auto;
+	background-color: #e3e1e1fd;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+	text-transform: capitalize;
+}
+
+#list_items .list_container > input[type='checkbox'] {
+	height: 40px;
+	width: 40px;
+	margin-top: 5px;
+}
+
+#list_items .list_container > p {
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+
+#list_items .list_container > button[id='delete'] {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #a683e3;
+	text-transform: capitalize;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: 0.2s ease-in-out;
+}
+
+#list_items .list_container > button[id='delete']:hover {
+	background-color: #e4e9fd;
+	color: #000;
+	transform: scale(1.1);
+	border: 1px solid #000;
 }
 
 .list_container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding: 10px;
 }
 
 .paragraph_list {
-	text-decoration: line-through;
+	text-decoration: line-through 2.5px #fff;
 }
