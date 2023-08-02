@@ -317,6 +317,13 @@ body {
 	background-size: cover;
 }
 
+.qr_code {
+	background-image: url('/img/css/qr_code.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 /* BOOTSTRAP PROJECT SECTION */
 
 .bootstrap_project-container {
