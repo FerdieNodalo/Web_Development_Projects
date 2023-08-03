@@ -324,6 +324,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+.results_summary {
+	background-image: url('./img/css/results_summary.png');
+	background-size: cover;
+}
+
 /* BOOTSTRAP PROJECT SECTION */
 
 .bootstrap_project-container {

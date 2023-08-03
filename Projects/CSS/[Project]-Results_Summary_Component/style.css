@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	border-radius: 30px 20px 20px 30px;
+	overflow: hidden;
+	box-shadow: 5px 5px 10px 0 rgb(0, 0, 0, 0.1);
+	margin-bottom: 100px;
+}
+
+.left_card {
+	border-radius: 30px;
+	background-color: hsl(241, 81%, 54%);
+	height: 440px;
+	width: 310px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.left_card-header {
+	text-align: center;
+	color: hsl(241, 100%, 89%);
+	padding: 30px 0;
+	font-weight: 700;
+}
+
+.circle {
+	padding: 10px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 160px;
+	width: 160px;
+	background-color: hsla(256, 72%, 46%, 1);
+	margin-bottom: 20px;
+}
+
+.circle_num {
+	color: hsl(0, 0%, 100%);
+	font-size: 55px;
+	font-weight: 800;
+}
+
+.circle_text {
+	color: hsl(241, 100%, 89%);
+}
+
+.sub_header {
+	color: hsl(0, 0%, 100%);
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.card_text {
+	text-align: center;
+	color: hsl(241, 100%, 89%);
+	padding: 0 30px;
+}
+
+.right_card {
+	height: 440px;
+	width: 310px;
+	padding: 30px;
+	border-radius: 0 20px 20px 0;
+}
+
+.right_card-header {
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+.col {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.col > div > img {
+	margin-right: 10px;
+}
+
+.reaction {
+	background-color: hsla(0, 100%, 67%, 0.142);
+}
+
+.reaction > div:first-child {
+	color: hsl(0, 100%, 67%);
+}
+
+.memory {
+	background-color: hsla(39, 100%, 56%, 0.157);
+}
+
+.memory > div:first-child {
+	color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+	background-color: hsla(166, 100%, 37%, 0.144);
+}
+
+.verbal > div:first-child {
+	color: hsl(166, 100%, 37%);
+}
+
+.visual {
+	background-color: hsla(234, 85%, 45%, 0.155);
+}
+
+.visual > div:first-child {
+	color: hsl(234, 85%, 45%);
+}
+
+.btn {
+	width: 100%;
+	padding: 15px;
+	margin: 20px 0;
+	font-weight: 700;
+	border-radius: 20px;
+	color: hsl(0, 0%, 100%);
+	border: none;
+	background-color: hsl(224, 30%, 27%);
+	transition: 0.2s;
+}
+
+.btn:hover {
+	background-color: hsl(241, 81%, 54%);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		height: auto;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		border-radius: 0;
+	}
+
+	.left_card {
+		height: auto;
+		width: 100%;
+		border-radius: 0 0 20px 20px;
+		padding-bottom: 40px;
+	}
+
+	.right_card {
+		height: auto;
+		width: 100%;
+	}
+}
