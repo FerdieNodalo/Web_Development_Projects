@@ -26,7 +26,7 @@ body {
 
 .left_card {
 	border-radius: 30px;
-	background-color: hsl(241, 81%, 54%);
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 	height: 440px;
 	width: 310px;
 	display: flex;
@@ -50,7 +50,7 @@ body {
 	align-items: center;
 	height: 160px;
 	width: 160px;
-	background-color: hsla(256, 72%, 46%, 1);
+	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 	margin-bottom: 20px;
 }
 
@@ -95,18 +95,27 @@ body {
 	border-radius: 10px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	position: relative;
 }
 
-.col > div > img {
+.col > img {
 	margin-right: 10px;
+}
+
+.col > span:nth-child(3) {
+	position: absolute;
+	right: 10px;
+}
+
+.col > span:nth-child(3) > span {
+	color: hsl(224, 30%, 27%);
 }
 
 .reaction {
 	background-color: hsla(0, 100%, 67%, 0.142);
 }
 
-.reaction > div:first-child {
+.reaction > span:nth-child(2) {
 	color: hsl(0, 100%, 67%);
 }
 
@@ -114,7 +123,7 @@ body {
 	background-color: hsla(39, 100%, 56%, 0.157);
 }
 
-.memory > div:first-child {
+.memory > span:nth-child(2) {
 	color: hsl(39, 100%, 56%);
 }
 
@@ -122,7 +131,7 @@ body {
 	background-color: hsla(166, 100%, 37%, 0.144);
 }
 
-.verbal > div:first-child {
+.verbal > span:nth-child(2) {
 	color: hsl(166, 100%, 37%);
 }
 
@@ -130,7 +139,7 @@ body {
 	background-color: hsla(234, 85%, 45%, 0.155);
 }
 
-.visual > div:first-child {
+.visual > span:nth-child(2) {
 	color: hsl(234, 85%, 45%);
 }
 
@@ -144,6 +153,7 @@ body {
 	border: none;
 	background-color: hsl(224, 30%, 27%);
 	transition: 0.2s;
+	cursor: pointer;
 }
 
 .btn:hover {
@@ -158,25 +168,26 @@ body {
 	color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	body {
 		height: auto;
 	}
 	.container {
+		margin-top: 20px;
 		display: flex;
 		flex-direction: column;
-		border-radius: 0;
+		border-radius: 20px;
 	}
 
 	.left_card {
 		height: auto;
 		width: 100%;
-		border-radius: 0 0 20px 20px;
 		padding-bottom: 40px;
 	}
 
 	.right_card {
 		height: auto;
 		width: 100%;
+		border-radius: 0 0 20px 20px;
 	}
 }
