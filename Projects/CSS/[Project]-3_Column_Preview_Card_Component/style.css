@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+	--paragraph-size: 15px;
+	--heading: 'Big Shoulders Display', cursive;
+	--paragraph-font: 'Lexend Deca', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 900px;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+img {
+	padding: 10px 0 20px 0;
+}
+
+h1 {
+	font-family: var(--heading);
+	color: hsl(0, 0%, 95%);
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: var(--paragraph-font);
+	font-size: var(--paragraph-size);
+	color: hsla(0, 0%, 100%, 0.75);
+	text-align: left;
+	width: 210px;
+	margin-bottom: 60px;
+}
+
+button[type='button'] {
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: hsl(0, 0%, 95%);
+	border: 1px solid transparent;
+	cursor: pointer;
+	font-weight: 700;
+	transition: 0.3s ease-in-out;
+}
+
+button[type='button']:hover {
+	background-color: transparent;
+	color: hsl(0, 0%, 95%);
+	border: 1px solid hsl(0, 0%, 95%);
+}
+
+.col_one {
+	width: 300px;
+	padding: 30px;
+	background-color: hsl(31, 77%, 52%);
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.col_one-btn {
+	color: hsl(31, 77%, 52%);
+}
+
+.col_two {
+	width: 300px;
+	padding: 30px;
+	background-color: hsl(184, 100%, 22%);
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.col_two-btn {
+	color: hsl(184, 100%, 22%);
+}
+
+.col_three {
+	width: 300px;
+	padding: 30px;
+	background-color: hsl(179, 100%, 13%);
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.col_three-btn {
+	color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+	body {
+		height: auto;
+		padding: 10px;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		border-radius: 10px;
+		overflow: hidden;
+		width: min-content;
+		margin: 20px 0;
+	}
+}
