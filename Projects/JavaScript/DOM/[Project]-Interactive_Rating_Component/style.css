@@ -28,7 +28,7 @@ body {
 	background: linear-gradient(#232a34, #181e27);
 	padding: 25px;
 	border-radius: 30px;
-	width: 28%;
+	width: 360px;
 	height: 360px;
 }
 
@@ -41,7 +41,7 @@ img[alt='star'] {
 	font-size: var(--Font-size-paragraph);
 }
 
-h1 {
+h2 {
 	font-size: 28px;
 	color: var(--White);
 	margin-bottom: 15px;
@@ -149,4 +149,26 @@ p {
 
 .attribution a {
 	color: hsl(228, 82%, 67%);
+}
+
+@media (max-width: 375px) {
+	h1 {
+		font-size: 25px;
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	button {
+		font-size: 13px;
+	}
+	.container {
+		width: 340px;
+		height: 340px;
+	}
+	.container2 {
+		width: 340px;
+		height: 340px;
+	}
 }
