@@ -53,6 +53,14 @@ body {
 	background-color: #91c8e4;
 	color: #000;
 	border: 1px solid black;
+	transition: all 0.5s ease-in-out;
+}
+
+.nav_links > a:focus {
+	background-color: #91c8e4;
+	color: #000;
+	border: 1px solid black;
+	transition: all 0.5s ease-in-out;
 }
 
 .nav_dropdown {
@@ -163,10 +171,12 @@ body {
 	list-style: none;
 	margin: 20px 0;
 	font-size: 13px;
+	font-weight: 600;
 }
 
 .card_info li i {
 	color: #000;
+	padding: 0 5px;
 }
 
 .card_btn {
@@ -178,8 +188,8 @@ body {
 	width: 100%;
 	height: 40px;
 	border-radius: 2rem;
-	font-weight: 600;
-	font-size: 15 px;
+	font-weight: 800;
+	font-size: 15px;
 	cursor: pointer;
 	transition: 0.2s ease-in;
 }
@@ -192,15 +202,19 @@ body {
 /* CAPSTONE PROJECT SECTION */
 
 .capstone_project-container {
-	height: 100vh;
+	width: 100%;
+	height: auto;
+	border: 2px solid black;
 	margin-top: 80px;
-	padding: 10px 20px 0 20px;
+	padding: 80px 0;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .todolist {
-	background-image: url('./img/javascript/todolist.png');
+	background-image: url('./img/capstone_project/todolist.png');
 	background-position: center;
 	background-size: cover;
 }
@@ -225,21 +239,23 @@ body {
 
 .games_project-container {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	border: 2px solid black;
 	padding: 80px 0;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .dice_game {
-	background-image: url('/img/javascript/dice_game.png');
+	background-image: url('/img/games/dice_game.png');
 	background-position: center;
 	background-size: cover;
 }
 
 .simon_game {
-	background-image: url('/img/javascript/simon_game.png');
+	background-image: url('/img/games/simon_game.png');
 	background-position: center;
 	background-size: cover;
 }
@@ -248,11 +264,13 @@ body {
 
 .html_project-container {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	border: 2px solid black;
 	padding: 80px 0;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .birthday_invite {
@@ -281,6 +299,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .mondrian_painting {
@@ -302,7 +321,6 @@ body {
 
 .agency {
 	background-image: url('/img/css/agency.png');
-	background-position: center;
 	background-size: cover;
 }
 
@@ -322,12 +340,12 @@ body {
 .results_summary {
 	background-image: url('./img/css/results_summary.png');
 	background-size: cover;
+	background-position: center;
 }
 
 .preview-card {
 	background-image: url('./img/css/3_column_preview.png');
 	background-size: cover;
-	background-position: center;
 	background-repeat: no-repeat;
 }
 
@@ -335,11 +353,13 @@ body {
 
 .bootstrap_project-container {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	border: 2px solid black;
 	padding: 80px 0;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .tindog_startup {
@@ -352,22 +372,38 @@ body {
 
 .dom_project-container {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	border: 2px solid black;
 	padding: 80px 0;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.interactive_rating-component {
+	background-image: url('./img/javascript/DOM/interactive_rating_component.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.drum_kit {
+	background-image: url('./img/javascript/DOM/drum_kit.png');
+	background-size: cover;
+	background-position: center;
 }
 
 /* JQUERY PROJECT SECTION */
 
 .jquery_project-container {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	border: 2px solid black;
 	padding: 80px 0;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 /* FOOTER SECTION */
