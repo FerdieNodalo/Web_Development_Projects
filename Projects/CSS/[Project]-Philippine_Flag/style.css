@@ -1,0 +1,244 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background-color: gray;
+}
+
+.flag_container {
+	width: 1000px;
+	height: 500px;
+	position: relative;
+}
+
+.star_container {
+	width: 400px;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fed141;
+	font-size: 50px;
+	z-index: 2;
+}
+
+.one {
+	position: absolute;
+	top: 25px;
+	left: 5px;
+	transform: rotate(45deg);
+}
+
+.two {
+	position: absolute;
+	top: 225px;
+	right: 25px;
+	transform: rotate(90deg);
+}
+
+.three {
+	position: absolute;
+	bottom: 25px;
+	left: 5px;
+	transform: rotate(70deg);
+}
+
+.white {
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-top: 250px solid transparent;
+	border-left: 400px solid #ffffff;
+	border-bottom: 250px solid transparent;
+	z-index: 1;
+}
+
+.circle_container {
+	position: relative;
+	top: 140px;
+	left: 40px;
+	width: 220px;
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle {
+	width: 110px;
+	height: 110px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #fed141;
+}
+
+.left_ray {
+	margin-top: 15.5px;
+	width: 5px;
+	height: 45px;
+	background-color: #fed141;
+}
+
+.left_side-triangle {
+	position: absolute;
+	top: 6px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-bottom: 10px solid #fed141;
+}
+
+.middle_ray {
+	margin-top: 9.2px;
+	width: 10px;
+	margin-left: 1px;
+	height: 50px;
+	background-color: #fed141;
+}
+
+.middle_triangle-top {
+	position: absolute;
+	top: 0px;
+	left: 10.5px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #fed141;
+}
+
+.right_ray {
+	margin-top: 15.5px;
+	width: 5px;
+	height: 45px;
+	background-color: #fed141;
+}
+
+.right_side-triangle {
+	position: absolute;
+	top: 6px;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #fed141;
+}
+
+.rays_container-one {
+	position: absolute;
+	top: 0;
+	width: 30px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.rays_container-two {
+	position: absolute;
+	top: 25px;
+	right: 35px;
+	width: 30px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	transform: rotate(45deg);
+}
+
+.rays_container-three {
+	position: absolute;
+	top: 80px;
+	right: 12px;
+	width: 30px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	transform: rotate(90deg);
+}
+
+.rays_container-four {
+	position: absolute;
+	bottom: 25px;
+	right: 35px;
+	width: 30px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	transform: rotate(135deg);
+}
+
+.rays_container-five {
+	position: absolute;
+	bottom: 0;
+	width: 30px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	transform: rotate(180deg);
+}
+
+.rays_container-six {
+	position: absolute;
+	bottom: 25px;
+	left: 35px;
+	width: 30px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	transform: rotate(225deg);
+}
+
+.rays_container-seven {
+	position: absolute;
+	top: 80px;
+	left: 12px;
+	width: 30px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	transform: rotate(270deg);
+}
+
+.rays_container-eight {
+	position: absolute;
+	top: 25px;
+	left: 35px;
+	width: 30px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	transform: rotate(315deg);
+}
+
+.blue {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: inherit;
+	height: 50%;
+	background-color: #0032a0;
+}
+
+.red {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: inherit;
+	height: 50%;
+	background-color: #bf0d3e;
+}

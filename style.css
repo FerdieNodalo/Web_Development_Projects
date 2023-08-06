@@ -324,9 +324,8 @@ body {
 	background-size: cover;
 }
 
-.flag {
-	background-image: url('/img/css/flag.png');
-	background-position: center;
+.philippine_flag {
+	background-image: url('/img/css/philippine_flag.png');
 	background-size: cover;
 }
 
