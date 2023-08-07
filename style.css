@@ -324,11 +324,6 @@ body {
 	background-size: cover;
 }
 
-.philippine_flag {
-	background-image: url('/img/css/philippine_flag.png');
-	background-size: cover;
-}
-
 .qr_code {
 	background-image: url('/img/css/qr_code.png');
 	background-position: center;
@@ -390,6 +385,11 @@ body {
 	background-image: url('./img/javascript/DOM/drum_kit.png');
 	background-size: cover;
 	background-position: center;
+}
+
+.philippine_flag {
+	background-image: url('/img/css/philippine_flag.png');
+	background-size: cover;
 }
 
 /* JQUERY PROJECT SECTION */
