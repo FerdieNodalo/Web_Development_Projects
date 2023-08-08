@@ -203,26 +203,14 @@ body {
 
 .capstone_project-container {
 	width: 100%;
-	height: auto;
-	border: 2px solid black;
+	height: 100vh;
+	border-bottom: 2px solid black;
 	margin-top: 80px;
-	padding: 80px 0;
+	padding: 10px 20px 20px 20px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-.todolist {
-	background-image: url('./img/capstone_project/todolist.png');
-	background-position: center;
-	background-size: cover;
-}
-
-.personal_site {
-	background-image: url('./img/capstone_project/personal_site.png');
-	background-position: center;
-	background-size: cover;
+	justify-content: flex-start;
 }
 
 .classroom_app {
@@ -230,47 +218,22 @@ body {
 	background-size: cover;
 }
 
-.resume {
-	background-image: url('./img/capstone_project/my_resume.png');
-	background-size: cover;
-}
-
-/* GAMES PROJECT SECTION */
-
-.games_project-container {
-	width: 100%;
-	height: auto;
-	border: 2px solid black;
-	padding: 80px 0;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-.dice_game {
-	background-image: url('/img/games/dice_game.png');
-	background-position: center;
-	background-size: cover;
-}
-
-.simon_game {
-	background-image: url('/img/games/simon_game.png');
-	background-position: center;
-	background-size: cover;
-}
-
 /* HTML PROJECT SECTION */
 
 .html_project-container {
 	width: 100%;
-	height: auto;
-	border: 2px solid black;
-	padding: 80px 0;
+	height: 100vh;
+	border-bottom: 2px solid black;
+	padding: 80px 20px 20px 20px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
+}
+
+.resume {
+	background-image: url('./img/capstone_project/my_resume.png');
+	background-size: cover;
 }
 
 .birthday_invite {
@@ -294,33 +257,22 @@ body {
 .css_project-container {
 	width: 100%;
 	height: auto;
-	border: 2px solid black;
-	padding: 80px 0;
+	border-bottom: 2px solid black;
+	padding: 80px 20px 20px 20px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
+}
+
+.personal_site {
+	background-image: url('./img/capstone_project/personal_site.png');
+	background-position: center;
+	background-size: cover;
 }
 
 .mondrian_painting {
 	background-image: url('/img/css/mondrian_painting.png');
-	background-size: cover;
-}
-
-.motivational_poster {
-	background-image: url('/img/css/motivational_poster.png');
-	background-position: center;
-	background-size: cover;
-}
-
-.pricing_table {
-	background-image: url('/img/css/pricing_table.png');
-	background-position: center;
-	background-size: cover;
-}
-
-.agency {
-	background-image: url('/img/css/agency.png');
 	background-size: cover;
 }
 
@@ -347,13 +299,13 @@ body {
 
 .bootstrap_project-container {
 	width: 100%;
-	height: auto;
-	border: 2px solid black;
-	padding: 80px 0;
+	height: 100vh;
+	border-bottom: 2px solid black;
+	padding: 80px 20px 20px 20px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 }
 
 .tindog_startup {
@@ -362,17 +314,29 @@ body {
 	background-size: cover;
 }
 
-/* DOM PROJECT SECTION */
+/* VANILLAJS PROJECT SECTION */
 
-.dom_project-container {
+.vanillajs_project-container {
 	width: 100%;
 	height: auto;
-	border: 2px solid black;
-	padding: 80px 0;
+	border-bottom: 2px solid black;
+	padding: 80px 20px 20px 20px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
+}
+
+.dice_game {
+	background-image: url('/img/games/dice_game.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.todolist {
+	background-image: url('./img/capstone_project/todolist.png');
+	background-position: center;
+	background-size: cover;
 }
 
 .interactive_rating-component {
@@ -396,13 +360,19 @@ body {
 
 .jquery_project-container {
 	width: 100%;
-	height: auto;
-	border: 2px solid black;
-	padding: 80px 0;
+	height: 100vh;
+	border-bottom: 2px solid black;
+	padding: 80px 20px 20px 20px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
+}
+
+.simon_game {
+	background-image: url('/img/games/simon_game.png');
+	background-position: center;
+	background-size: cover;
 }
 
 /* FOOTER SECTION */
