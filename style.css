@@ -232,7 +232,7 @@ body {
 }
 
 .resume {
-	background-image: url('./img/capstone_project/my_resume.png');
+	background-image: url('./img/html/my_resume.png');
 	background-size: cover;
 }
 
@@ -266,7 +266,7 @@ body {
 }
 
 .personal_site {
-	background-image: url('./img/capstone_project/personal_site.png');
+	background-image: url('./img/css/personal_site.png');
 	background-position: center;
 	background-size: cover;
 }
@@ -328,31 +328,31 @@ body {
 }
 
 .dice_game {
-	background-image: url('/img/games/dice_game.png');
+	background-image: url('/img/javascript/vanillajs/dice_game.png');
 	background-position: center;
 	background-size: cover;
 }
 
 .todolist {
-	background-image: url('./img/capstone_project/todolist.png');
+	background-image: url('./img/javascript/vanillajs/todolist.png');
 	background-position: center;
 	background-size: cover;
 }
 
 .interactive_rating-component {
-	background-image: url('./img/javascript/DOM/interactive_rating_component.png');
+	background-image: url('./img/javascript/vanillajs/interactive_rating_component.png');
 	background-size: cover;
 	background-position: center;
 }
 
 .drum_kit {
-	background-image: url('./img/javascript/DOM/drum_kit.png');
+	background-image: url('./img/javascript/vanillajs/drum_kit.png');
 	background-size: cover;
 	background-position: center;
 }
 
 .philippine_flag {
-	background-image: url('/img/css/philippine_flag.png');
+	background-image: url('/img/javascript/vanillajs/philippine_flag.png');
 	background-size: cover;
 }
 
@@ -370,7 +370,7 @@ body {
 }
 
 .simon_game {
-	background-image: url('/img/games/simon_game.png');
+	background-image: url('/img/javascript/jquery/simon_game.png');
 	background-position: center;
 	background-size: cover;
 }
