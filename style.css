@@ -356,12 +356,17 @@ body {
 	background-size: cover;
 }
 
+.intro_component {
+	background-image: url('./img/javascript/vanillajs/intro_component.png');
+	background-size: cover;
+	background-position: center;
+}
+
 /* JQUERY PROJECT SECTION */
 
 .jquery_project-container {
 	width: 100%;
 	height: 100vh;
-	border-bottom: 2px solid black;
 	padding: 80px 20px 20px 20px;
 	display: flex;
 	flex-direction: row;
