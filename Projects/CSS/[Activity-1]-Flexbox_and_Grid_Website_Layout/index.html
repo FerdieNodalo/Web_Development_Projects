@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid and Flexbox</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 20px;
+    height: auto;
+    background-color: rgb(240, 235, 235);
+    display: grid;
+    grid-template-rows: 10vh 20vh 30vh 20vh 10vh;
+    gap: 10px;
+  }
+
+  .navbar_container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .logo_navbar {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .login_register {
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+    border: 2px solid black;
+  }
+
+  .product {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo_and_about-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+  }
+
+  .about {
+    grid-column: 1/7;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .logo {
+    grid-column: 7/11;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+
+
+<body>
+
+
+  <main class="container">
+
+    <div class="navbar_container">
+      <div class="logo_navbar">
+        <h2>Logo Navbar</h2>
+      </div>
+      <div class="login_register">
+        <h2>Login/Register</h2>
+      </div>
+    </div>
+    <div class="banner">
+      <h2>CTA/ SaleBanner</h2>
+    </div>
+
+    <div class="product_container">
+      <div class="product one">
+        <h2>Product</h2>
+      </div>
+      <div class="product two">
+        <h2>Product</h2>
+      </div>
+      <div class="product three">
+        <h2>Product</h2>
+      </div>
+      <div class="product four">
+        <h2>Product</h2>
+      </div>
+      <div class="product five">
+        <h2>Product</h2>
+      </div>
+      <div class="product six">
+        <h2>Product</h2>
+      </div>
+      <div class="product seven">
+        <h2>Product</h2>
+      </div>
+      <div class="product eight">
+        <h2>Product</h2>
+      </div>
+    </div>
+
+    <div class="logo_and_about-container">
+      <div class="about">
+        <h2>About the company</h2>
+      </div>
+      <div class="logo">
+        <h2>Logo</h2>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+
+  </main>
+
+
+</body>
+
+</html>

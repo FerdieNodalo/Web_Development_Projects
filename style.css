@@ -295,6 +295,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+.flexbox_grid {
+	background-image: url('./img/css/flexbox_and_grid.png');
+	background-size: cover;
+	background-position: center;
+}
+
 /* BOOTSTRAP PROJECT SECTION */
 
 .bootstrap_project-container {
