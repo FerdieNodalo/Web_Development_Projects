@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	backdrop-filter: blur(2px);
+}
+
+.heading_container {
+	padding: 10px;
+	background-color: rgba(128, 128, 128, 0.606);
+	border-radius: 20px;
+	box-shadow: 0 5px 5px #000;
+}
+
+.heading {
+	color: #000;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+.music_player {
+	width: 400px;
+	height: auto;
+	background-color: rgba(97, 97, 97, 0.495);
+	backdrop-filter: blur(10px);
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px #000;
+	overflow: hidden;
+	padding: 30px;
+}
+
+.music_name,
+.artist_name {
+	text-align: center;
+	text-transform: capitalize;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+
+.music_name {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.artist_name {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.disk {
+	position: relative;
+	display: block;
+	margin: 40px auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-size: cover;
+	box-shadow: 0 0 0 10px #7b77779a;
+	animation: rotate 20s linear infinite;
+	animation-play-state: paused;
+}
+
+.disk.play {
+	animation-play-state: running;
+}
+
+.disk::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #000;
+}
+
+.song_slider {
+	position: relative;
+	width: 100%;
+}
+
+.seek_bar {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 10px;
+	border-radius: 10px;
+	background-color: rgba(128, 128, 128, 0.534);
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.seek_bar::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 1px;
+	height: 20px;
+	background-color: #000;
+	box-shadow: -400px 0 0 400px rgba(219, 214, 214, 0.767);
+}
+
+.current_time,
+.song_duration-time {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.song_duration-time {
+	position: absolute;
+	right: 0;
+}
+
+.controls {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.play_btn {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgba(232, 239, 245, 0.605);
+	cursor: pointer;
+	border: none;
+}
+
+.play_btn:hover {
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out;
+}
+
+.play_btn span {
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	transform: translate(-0%, -0%);
+	width: 10px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: rgba(0, 0, 0, 0.685);
+	transition: 0.3s ease-in-out;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.play_btn span:nth-child(2) {
+	left: 55%;
+	transform-origin: center;
+	transition: 0.2s ease-in-out;
+}
+
+.play_btn.pause span:nth-child(2) {
+	transform: translateX(-50%) scale(0);
+}
+
+.play_btn.pause span:nth-child(1) {
+	width: 50%;
+	height: 60%;
+	left: 55%;
+	transform: translate(-50%, -5%);
+	border-radius: 0;
+	clip-path: polygon(0 0, 100% 50%, 100% 50%, 0% 100%);
+}
+
+.play_btn.pause {
+	animation: pulse 2s linear infinite;
+}
+
+.btn {
+	width: 50px;
+	height: 50px;
+	background-color: rgba(232, 239, 245, 0.605);
+	cursor: pointer;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out;
+}
+
+.backward {
+	position: relative;
+	border: none;
+	border-radius: 50%;
+}
+
+.backward span {
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%, -50%) rotate(135deg);
+	width: 25px;
+	height: 25px;
+	background-color: transparent;
+	border-right: 7px solid rgba(0, 0, 0, 0.685);
+	border-bottom: 7px solid rgba(0, 0, 0, 0.685);
+}
+
+.forward {
+	position: relative;
+	border: none;
+	border-radius: 50%;
+}
+
+.forward span {
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+	width: 25px;
+	height: 25px;
+	background-color: transparent;
+	border-right: 7px solid rgba(0, 0, 0, 0.685);
+	border-bottom: 7px solid rgba(0, 0, 0, 0.685);
+}
+@keyframes pulse {
+	0% {
+		box-shadow: 0;
+	}
+	50% {
+		box-shadow: 0 0 0 5px rgba(220, 219, 219, 0.484);
+	}
+	100% {
+		box-shadow: 0 0 0 5px rgba(229, 223, 223, 0.864);
+	}
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

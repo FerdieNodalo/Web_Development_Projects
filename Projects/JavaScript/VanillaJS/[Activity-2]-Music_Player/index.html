@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <audio src="audios/angels_like_you.mp3" id="audio"></audio>
+
+  <div class="heading_container">
+    <h2 class="heading"></h2>
+  </div>
+
+  <main class="music_player">
+    <h1 class="music_name"></h1>
+    <hr>
+    <p class="artist_name"></p>
+    <div class="disk"></div>
+    <div class="song_slider">
+      <input class="seek_bar" type="range" value="0" title="seek_bar">
+      <span class="current_time"></span>
+      <span class="song_duration-time"></span>
+    </div>
+    <div class="controls">
+
+      <button class="btn backward" type="button" title="backward"><span></span></button>
+      <button class="play_btn pause" type="button" title="play_btn">
+        <span></span>
+        <span></span>
+      </button>
+      <button class="btn forward" type="button" title="forward"><span></span></button>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

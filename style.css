@@ -368,6 +368,12 @@ body {
 	background-position: center;
 }
 
+.music_player {
+	background-image: url('./img/javascript/vanillajs/music_player.png');
+	background-size: cover;
+	background-position: center;
+}
+
 /* JQUERY PROJECT SECTION */
 
 .jquery_project-container {
