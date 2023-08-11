@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="age_calculator-container">
+    <form class="form_container">
+      <div class="input_container">
+        <label for="day">Day</label>
+        <input type="number" name="day" placeholder="DD">
+        <p class="error_message-invalid hidden_invalid">Must be a valid day</p>
+        <p class="error_message-empty hidden_empty">This field is required</p>
+      </div>
+
+      <div class="input_container">
+        <label for="month">Month</label>
+        <input type="number" name="month" placeholder="MM">
+        <p class="error_message-invalid hidden_invalid">Must be a valid month</p>
+        <p class="error_message-empty hidden_empty">This field is required</p>
+      </div>
+
+      <div class="input_container">
+        <label for="year">Year</label>
+        <input type="number" name="year" placeholder="YYYY">
+        <p class="error_message-invalid hidden_invalid">Must be in the past</p>
+        <p class="error_message-empty hidden_empty">This field is required</p>
+      </div>
+
+      <button class="btn_submit" type="submit"><img class="arrow_img" src="./assets/images/icon-arrow.svg"
+          alt="arrow"></button>
+    </form>
+
+    <div class="text_value-container">
+      <h2 class="years"><span>--</span> years</h2>
+      <h2 class="months"><span>--</span> months</h2>
+      <h2 class="days"><span>--</span> days</h2>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://ferdie-nodalo.vercel.app/">Ferdie Nodalo</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

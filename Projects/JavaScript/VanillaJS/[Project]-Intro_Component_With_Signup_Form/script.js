@@ -11,7 +11,6 @@ form.addEventListener('submit', function (event) {
 			element.parentElement.classList.remove('error');
 			if (element.type === 'email') {
 				if (validateEmail(element.value)) {
-					console.log(element.value);
 					element.parentElement.classList.add('error');
 				} else {
 					element.parentElement.classList.remove('error');

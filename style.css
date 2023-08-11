@@ -125,12 +125,11 @@ body {
 
 .card {
 	width: 300px;
-	height: 300px;
+	height: 350px;
 	overflow: hidden;
 	border: 8px solid #f6f4eb;
 	border-radius: 20px;
 	position: relative;
-	margin: 10px;
 }
 
 .card_body {
@@ -205,8 +204,7 @@ body {
 	width: 100%;
 	height: 100vh;
 	border-bottom: 2px solid black;
-	margin-top: 80px;
-	padding: 10px 20px 20px 20px;
+	padding: 80px 30px 20px 25px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -224,11 +222,12 @@ body {
 	width: 100%;
 	height: 100vh;
 	border-bottom: 2px solid black;
-	padding: 80px 20px 20px 20px;
+	padding: 80px 30px 20px 25px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	gap: 30px;
 }
 
 .resume {
@@ -258,11 +257,12 @@ body {
 	width: 100%;
 	height: auto;
 	border-bottom: 2px solid black;
-	padding: 80px 20px 20px 20px;
+	padding: 80px 20px 20px 25px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	gap: 30px;
 }
 
 .personal_site {
@@ -307,11 +307,12 @@ body {
 	width: 100%;
 	height: 100vh;
 	border-bottom: 2px solid black;
-	padding: 80px 20px 20px 20px;
+	padding: 80px 20px 20px 25px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	gap: 30px;
 }
 
 .tindog_startup {
@@ -326,11 +327,12 @@ body {
 	width: 100%;
 	height: auto;
 	border-bottom: 2px solid black;
-	padding: 80px 20px 20px 20px;
+	padding: 80px 20px 20px 25px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	gap: 30px;
 }
 
 .dice_game {
@@ -374,16 +376,23 @@ body {
 	background-position: center;
 }
 
+.age_calculator {
+	background-image: url('./img/javascript/vanillajs/age_calculator.png');
+	background-size: cover;
+	background-position: 40%;
+}
+
 /* JQUERY PROJECT SECTION */
 
 .jquery_project-container {
 	width: 100%;
 	height: 100vh;
-	padding: 80px 20px 20px 20px;
+	padding: 80px 20px 20px 25px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	gap: 30px;
 }
 
 .simon_game {
