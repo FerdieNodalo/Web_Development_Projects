@@ -392,11 +392,30 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	border-bottom: 2px solid black;
 	gap: 30px;
 }
 
 .simon_game {
 	background-image: url('/img/javascript/jquery/simon_game.png');
+	background-position: center;
+	background-size: cover;
+}
+
+/* REACTJS SECTION */
+.reactjs_project-container {
+	width: 100%;
+	height: 100vh;
+	padding: 80px 20px 20px 25px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 30px;
+}
+
+.shortlink_api {
+	background-image: url('./img/javascript/reactjs/shortlink_api.png');
 	background-position: center;
 	background-size: cover;
 }
