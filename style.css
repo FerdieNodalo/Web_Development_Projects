@@ -301,6 +301,12 @@ body {
 	background-position: center;
 }
 
+.schedule{
+	background-image: url('./img/css/schedule.png');
+	background-size: cover;
+	background-position: center;
+}
+
 /* BOOTSTRAP PROJECT SECTION */
 
 .bootstrap_project-container {
