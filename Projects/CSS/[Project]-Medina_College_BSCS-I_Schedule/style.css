@@ -241,6 +241,50 @@ main section:nth-child(2) div p {
     align-items: center;
 }
 
+@media (max-width:1024px) {
+    main section:nth-child(2) div h2 {
+        height: 80px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .course_desc-container p {
+        font-size: 11.1px;
+     }
+
+     .course_desc-container p:nth-child(2) {
+        padding: 7.3px 0 ;
+     }
+
+
+     .course_desc-container p:nth-child(4) {
+        padding: 7.3px 0 ;
+     }
+
+     .course_desc-container p:nth-child(6) {
+        padding: 7px 0 ;
+     }  
+
+     
+     .course_desc-container p:nth-child(7) {
+        padding: 3.5px 0 ;
+     }  
+
+     .course_desc-container p:nth-child(9) {
+        padding: 7.5px 0 ;
+     }  
+
+     .course_desc-container p:nth-child(11) {
+        padding: 3.5px 0 ;
+     }  
+
+     .course_desc-container p:nth-child(12) {
+        padding: 7px 0 ;
+     }  
+}
+
 @media (max-width:768px) {
     html {
         font-size: 70%;
