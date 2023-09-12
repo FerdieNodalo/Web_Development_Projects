@@ -608,10 +608,22 @@ video {
     html {
         font-size: 49%;
     }
+
+    .time_container p {
+        font-size: 8px;
+     }
+
+     .instructor_container p {
+        font-size: 9px;
+     }
 }
 
 @media (max-width:321px) {
     html {
         font-size: 41%;
     }
+
+    .time_container p {
+        font-size: 7px;
+     }
 }
